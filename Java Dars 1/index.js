@@ -49,3 +49,4 @@ let obj = {
    age:18
 }
 console.log(obj);
+console.log(obj.name);
