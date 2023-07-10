@@ -59,4 +59,9 @@ let str = "123"
 console.log(typeof str);// String
 let num1= Number(str)
 console.log(typeof num1);// Number 
+console.log("6"/ "2");
+let son = Number("Lorem")
+console.log(son);
+NaN //--Is NaN yani raqm bo'lmagan malumot turi!1
+// alert(son)
 
