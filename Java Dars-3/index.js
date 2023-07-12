@@ -60,13 +60,46 @@
 // }else{
 //     console.log(`${son} Manfiy son`);
 // }
-let a=3
-let b=3
-if(a>b){
-    console.log(`${a} Kichik`);
-}
-else if(a<b){
-    console.log(`${b} Katta`);
-}else{
-    console.log("Sonlar bir biriga teng");
+// let a=3
+// let b=3
+// if(a>b){
+//     console.log(`${a} Kichik`);
+// }
+// else if(a<b){
+//     console.log(`${b} Katta`);
+// }else{
+//     console.log("Sonlar bir biriga teng");
+// }
+// let a= 12
+// let b = 13
+// if(a>b){
+//     console.log(`${a}>${b} A katta`);
+// }else if(a===b){
+//     console.log(`Bu sonlar teng`);
+// }
+// else{
+//     console.log(`${b}>${a} B Katta`);
+// }
+// let a = 1
+// let b = 1
+// let s=0
+// if (a = b) {
+//     (a + b) 
+//     +=s
+// } else {
+//     0 = a
+// }
+// console.log(a, b);
+let hafta =1
+switch(hafta){
+    case  1:console.log("Dushanba");break
+    case  2:console.log("Seshanba");break
+    case  3:console.log("Chorshanba");break
+    case  4:console.log("Payshanba");break
+    case  5:console.log("Juma");break
+    case  6:console.log("Shanba");break
+    case  7:console.log("Yakshanba");break
+    default : console.log("Bunaqa hafta kuni yo'q");
+
+
 }
