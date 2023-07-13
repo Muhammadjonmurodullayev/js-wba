@@ -129,13 +129,13 @@
 // let amallar=9
 // let a = 2
 // let b = 3
-// switch (amallar){
-//     case 1  :console.log(a+b);break
-//     case 2  :console.log(a-b);break
-//     case 3  :console.log(a/b);break
-//     case 4  :console.log(a*b);break
-//     default : console.log("Xato qiymat");
-// }
+switch (amallar){
+    case 1  :console.log(a+b);break
+    case 2  :console.log(a-b);break
+    case 3  :console.log(a/b);break
+    case 4  :console.log(a*b);break
+    default : console.log("Xato qiymat");
+}
 let uzunlik =6
 switch(uzunlik){
     case 1 :console.log("Desimetr");break
