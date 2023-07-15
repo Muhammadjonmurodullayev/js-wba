@@ -101,47 +101,47 @@
 //     case  7:console.log("Yakshanba");break
 //     default : console.log("Bunaqa hafta kuni yo'q");
 // }
-// let baholash =6
-// switch(baholash){
-//     case 1 :console.log("Yomon");break
-//     case 2 :console.log("qoniqarsiz");break
-//     case 3 :console.log("qoniqarli");break
-//     case 4 :console.log("Yaxshi");break
-//     case 5 :console.log("A'lo");break
-//     default : console.log("Xato");
-// }
-// let oy = 5
-// switch (oy) {
-//     case 1: console.log("Yanvar oyida 31 Kun bor"); break
-//     case 2: console.log("Fevral oyida oyida 28 Kun bor"); break
-//     case 3: console.log("Mart oyida 31 Kun bor"); break
-//     case 4: console.log("Aprel oyida 30 Kun bor"); break
-//     case 5: console.log("May oyida 31 Kun bor"); break
-//     case 6: console.log("Iyun oyida 30 Kun bor"); break
-//     case 7: console.log("Iyul oyida 31 Kun bor"); break
-//     case 8: console.log("Avgust oyida 31 Kun bor"); break
-//     case 9: console.log("Sentyabr oyida 30 Kun bor"); break
-//     case 10: console.log("Oktyabr oyida 31 Kun bor"); break
-//     case 12: console.log("Noyabr oyida 30 Kun bor"); break
-//     case 13: console.log("Dekabr 31 Kun bor"); break
-//     default :console.log("Bunaqa oy yo'q");
-// }
-// let amallar=9
-// let a = 2
-// let b = 3
-// switch (amallar){
-//     case 1  :console.log(a+b);break
-//     case 2  :console.log(a-b);break
-//     case 3  :console.log(a/b);break
-//     case 4  :console.log(a*b);break
-//     default : console.log("Xato qiymat");
-// }
-// let uzunlik =6
-// switch(uzunlik){
-//     case 1 :console.log("Desimetr");break
-//     case 2 :console.log("Kilometr");break
-//     case 3 :console.log("Metr");break
-//     case 4 :console.log("Millimetr");break
-//     case 5 :console.log("Santimetr");break
-//     default : console.log("Xato");
-// }
+let baholash =6
+switch(baholash){
+    case 1 :console.log("Yomon");break
+    case 2 :console.log("qoniqarsiz");break
+    case 3 :console.log("qoniqarli");break
+    case 4 :console.log("Yaxshi");break
+    case 5 :console.log("A'lo");break
+    default : console.log("Xato");
+}
+let oy = 5
+switch (oy) {
+    case 1: console.log("Yanvar oyida 31 Kun bor"); break
+    case 2: console.log("Fevral oyida oyida 28 Kun bor"); break
+    case 3: console.log("Mart oyida 31 Kun bor"); break
+    case 4: console.log("Aprel oyida 30 Kun bor"); break
+    case 5: console.log("May oyida 31 Kun bor"); break
+    case 6: console.log("Iyun oyida 30 Kun bor"); break
+    case 7: console.log("Iyul oyida 31 Kun bor"); break
+    case 8: console.log("Avgust oyida 31 Kun bor"); break
+    case 9: console.log("Sentyabr oyida 30 Kun bor"); break
+    case 10: console.log("Oktyabr oyida 31 Kun bor"); break
+    case 12: console.log("Noyabr oyida 30 Kun bor"); break
+    case 13: console.log("Dekabr 31 Kun bor"); break
+    default :console.log("Bunaqa oy yo'q");
+}
+let amallar=9
+let a = 2
+let b = 3
+switch (amallar){
+    case 1  :console.log(a+b);break
+    case 2  :console.log(a-b);break
+    case 3  :console.log(a/b);break
+    case 4  :console.log(a*b);break
+    default : console.log("Xato qiymat");
+}
+let uzunlik =6
+switch(uzunlik){
+    case 1 :console.log("Desimetr");break
+    case 2 :console.log("Kilometr");break
+    case 3 :console.log("Metr");break
+    case 4 :console.log("Millimetr");break
+    case 5 :console.log("Santimetr");break
+    default : console.log("Xato");
+}
