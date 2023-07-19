@@ -56,17 +56,17 @@
 //     }
 // }
 
-let students = [
-    { id: 1, name: "Dilmurod" },
-    { id: 2, name: "Muhammadjon" },
-    { id: 3, name: "Abdulahad" },
-    { id: 4, name: "Umarbek" },
-    { id: 5, name: "Hoshim" },
-]
-const userDelete = (id) => {
-    students = students.filter((v) => v.id !== id)
+// let students = [
+//     { id: 1, name: "Dilmurod" },
+//     { id: 2, name: "Muhammadjon" },
+//     { id: 3, name: "Abdulahad" },
+//     { id: 4, name: "Umarbek" },
+//     { id: 5, name: "Hoshim" },
+// ]
+// const userDelete = (id) => {
+//     students = students.filter((v) => v.id !== id)
 
-}
+// }
 
-userDelete(2)
-console.log(students);
+// userDelete(2)
+// console.log(students);

@@ -18,35 +18,37 @@ const age = 18
 //                                    Data typelar 
 // pirinitiv,
 Number
-let son = 123
+// let son = 123
 String
 // console.log(typeof son);
-let str = "Muhammadjon"
-let str1 = 'Muhammadjon'
-let str2 = `Muhuammadjon 'Muhammadjon' "Muhammadjon" ${2 + 3}`
+// let str = "Muhammadjon"
+// let str1 = 'Muhammadjon'
+// let str2 = `Muhuammadjon 'Muhammadjon' "Muhammadjon" ${2 + 3}`
 // console.log(str,str1,str2);
 // console.log(1);
-BigInt
+// BigInt
 // let son1 = 9999999999999999n
-undefined
-null
+// undefined
+// null
 // let a = null
 // let b; 
 // console.log(a, b);
-Symbol
+// Symbol
 // let a =Symbol("a")
 // let b =Symbol("a")
 // console.log(a===b);
-Boolean
-let a = 2
-let b =2
+// Boolean
+// let a = 2
+// let b = 2
 // console.log(a==b);
 //  none pirimitiv
 Object
 let obj = {
-   name :"Muhammadjon",
-   surname:"Murodullayev",
-   age:18
+   name: "Muhammadjon",
+   surname: "Murodullayev",
+   age: 18
 }
-console.log(obj);
-console.log(obj.name);
+n
+console.log(obj.name.length);
+
+// 
