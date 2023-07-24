@@ -19,9 +19,9 @@
 // }
 // console.log(b);
 
-let a = "Muhammadjon";
-let b = "";
-for (let i = a.length - 1; i >= 0; i--) {
-    b += a[+i]
-}
-console.log(b);
+// let a = "Madad";
+// let b = "";
+// for (let i = a.length - 1; i >= 0; i--) {
+//     b += a[+i]
+// }
+// console.log(b);
