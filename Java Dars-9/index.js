@@ -66,4 +66,5 @@ let son4 = son3.toString(2); // 10 => 2 o'nlikdan ikkilika o'tish
 // let son8 = Math.floor(12.6);
 // let son6 = Math.round(12.5);
 // let son7 = Math.ceil(12.2);
+
 // console.log(son5, son8);
