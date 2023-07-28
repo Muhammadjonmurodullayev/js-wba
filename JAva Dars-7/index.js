@@ -58,15 +58,34 @@
 //     }
 //     console.log(sum);
 // }
-let sum = {
-    john: 100,
-    Ann: 160,
-    Pete: 130,
-    name: "Muhammadjon"
-}
-for (i in sum) {
-    if (typeof sum[i] === "number") {
-        sum = sum[i] + sum[i]
+// let sum = {
+//     john: 100,
+//     Ann: 160,
+//     Pete: 130,
+//     name: "Muhammadjon"
+// }
+// for (i in sum) {
+//     if (typeof sum[i] === "number") {
+//         sum = sum[i] + sum[i]
+//     }
+// }
+// console.log(sum);
+// function getmall() {
+//     for (let i = 3; i <= 9; i++) {
+//         console.log(i + i);
+//     }
+// }
+// getmall()
+
+function getmall(a, b) {
+    for (let i = a; i <= b; i++) {
+        console.log(a, i + i);
     }
 }
-console.log(sum);
+getmall(3, 9)
+
+function getdata(a, b) {
+    for (let i = a; i < b; i++) {
+        console.log();
+    }
+}
