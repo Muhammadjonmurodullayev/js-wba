@@ -65,13 +65,18 @@ let son4 = son3.toString(2); // 10 => 2 o'nlikdan ikkilika o'tish
 // floor  pastga qarab yaxlitlaydi;
 // console.log(Math.floor(2.99));
 // ============================================================
-let son5 = Math.trunc(12.6);
-let son8 = Math.floor(12.6);
-let son6 = Math.round(12.5);
-let son7 = Math.ceil(12.2);
-console.log(son5, son6, son8, son7);
+// let son5 = Math.trunc(12.6);
+// let son8 = Math.floor(12.6);
+// let son6 = Math.round(12.5);
+// let son7 = Math.ceil(12.2);
+// console.log(son5, son6, son8, son7);
 // ============================================================
-let sum = Math.sign(10) // 1
-let sum9 = Math.sign(-10) //-1
-let sum0 = Math.sign(0) // 0
-    // console.log(sum);
+// let sum = Math.sign(10) // 1
+// let sum9 = Math.sign(-10) //-1
+// let sum0 = Math.sign(0) // 0
+// console.log(sum);
+function getrenddom(a) {
+    let run = parseInt(Math.random() * a)
+    console.log(run);
+}
+getrenddom(20)
