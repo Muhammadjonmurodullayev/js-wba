@@ -75,8 +75,9 @@ let son4 = son3.toString(2); // 10 => 2 o'nlikdan ikkilika o'tish
 // let sum9 = Math.sign(-10) //-1
 // let sum0 = Math.sign(0) // 0
 // console.log(sum);
-function getrenddom(a) {
-    let run = parseInt(Math.random() * a)
+// Homework
+const getrenddom = (a, b) => {
+    let run = parseInt(Math.random() * b / 2 + a)
     console.log(run);
 }
-getrenddom(20)
+getrenddom(25, 50)
