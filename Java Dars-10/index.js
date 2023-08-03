@@ -19,4 +19,5 @@
 let str = "Webbarain academiy"
 for (i of str) {
     console.log(i);
+    console.log(i);
 }
