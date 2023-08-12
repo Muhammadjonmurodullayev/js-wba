@@ -60,6 +60,6 @@ let res = "234567892"
     // let res1 = 0
 for (i of res) {
     console.log(i * i);
-    // console.log(i);
+    // console.log(i);--
 }
 // console.log(res1);
