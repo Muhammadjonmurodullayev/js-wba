@@ -635,3 +635,4 @@
 
 //     return sum / array.length;
 // }
+// console.log(1);
