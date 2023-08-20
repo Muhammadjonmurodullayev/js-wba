@@ -5,7 +5,7 @@
 // console.log(obj);
 // console.log(res);
 // 1)Masala
-// var AmIAfraid = function(day, number) {
+// var AmIAfraid = function(day, findMultiplesber) {
 //     if (day === "Monday" && number === 12) {
 //         return true;
 //     } else if (day === "Tuesday" && number > 95) {
@@ -305,7 +305,7 @@
 // let input = [1, 2, 1, 1, 3, 2];
 // let output = distinct(input);
 // console.log(output);
-// function array(string) {
+// function aay(string) {
 //     const sequences = string.split(',');
 
 //     sequences.shift();
@@ -434,17 +434,204 @@
 // console.log(triangleType(8, 5, 7)); // Output: 1 (Acute)
 // console.log(triangleType(3, 4, 5)); // Output: 2 (Right)
 // console.log(triangleType(7, 12, 8)); // Output: 3 (Obtuse)
-function estSubsets(arr) {
-    const set = new Set(arr);
-    const setSize = set.size;
-    let result = 0;
+// function estSubsets(arr) {
+//     const set = new Set(arr);
+//     const setSize = set.size;
+//     let result = 0;
 
-    for (let i = 1; i <= setSize; i++) {
-        result += Math.pow(2, setSize - i);
-    }
+//     for (let i = 1; i <= setSize; i++) {
+//         result += Math.pow(2, setSize - i);
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
-console.log(estSubsets([1, 2, 3, 4])); // Output: 15
-console.log(estSubsets(['a', 'b', 'c', 'd', 'd'])); // Output: 15
+// console.log(estSubsets([1, 2, 3, 4])); // Output: 15
+// console.log(estSubsets(['a', 'b', 'c', 'd', 'd'])); // Output: 15
+// function removeEveryOther(array) {
+//     return array.filter((_, index) => index % 2 === 0);
+// }
+
+// // Example usage
+// const originalArray = ["Keep", "Remove", "Keep", "Remove", "Keep"];
+// const modifiedArray = removeEveryOther(originalArray);
+// console.log(modifiedArray); // Output: ["Keep", "Keep", "Keep"]
+// function findMultiples(integer, limit) {
+//     let multiples = [];
+
+//     for (let i = integer; i <= limit; i += integer) {
+//         multiples.push(i);
+//     }
+
+//     return multiples;
+// }
+
+// console.log(findMultiples(2, 6));
+// function addLength(str) {
+//     const words = str.split(" ");
+//     const result = words.map(word => `${word} ${word.length}`);
+//     return result;
+// }
+
+// console.log(addLength("apple ban")); // Output: ["apple 5", "ban 3"]
+// console.log(addLength("you will win")); // Output: ["you 3", "will 4", "win 3"]
+// function validateBattlefield(field) {
+//     const shipSizes = [4, 3, 3, 2, 2, 2, 1, 1, 1, 1];
+//     let shipCount = Array(10).fill(0);
+
+//     for (let i = 0; i < field.length; i++) {
+//         for (let j = 0; j < field[i].length; j++) {
+//             if (field[i][j] === 1) {
+//                 const shipSize = getShipSize(field, i, j);
+//                 shipCount[shipSize - 1]++;
+//                 if (shipCount[shipSize - 1] > shipSizes[shipSize - 1]) {
+//                     return false;
+//                 }
+//             }
+//         }
+//     }
+
+//     return shipCount.every((count, index) => count === shipSizes[index]);
+// }
+
+// function getShipSize(field, i, j) {
+//     let size = 0;
+
+//     if (i < field.length - 1 && field[i + 1][j] === 1) {
+//         while (i < field.length && field[i][j] === 1) {
+//             size++;
+//             i++;
+//         }
+//         return size;
+//     } else if (j < field[i].length - 1 && field[i][j + 1] === 1) {
+//         while (j < field[i].length && field[i][j] === 1) {
+//             size++;
+//             j++;
+//         }
+//         return size;
+//     } else {
+//         return 1;
+//     }
+// }
+// const field = [
+//     [0, 0, 1, 1, 1, 0, 0, 0, 0, 0],
+//     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+//     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+//     [1, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+//     [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+//     [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+//     [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+//     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+//     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+//     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+// ];
+
+// console.log(validateBattlefield)
+// const reverse = (a) => {
+//     let reversedArray = [];
+//     for (let i = a.length - 1; i >= 0; i--) {
+//         reversedArray.push(a[i]);
+//     }
+//     return reversedArray;
+// };
+// const originalArray = [1, 2, 3];
+// const reversedArray = reverse(originalArray);
+// console.log(reversedArray);
+// const reverse = a => a.map(a.pop, [...a]);
+// const a = [1, 2, 3];
+// const reversedArr = reverse(a);
+// console.log(reversedArr); // Output: [3, 2, 1]
+// Array
+// const reverse = a => a.map(a.pop, [...arr]);
+// const central_pixels = arr => arr.reduceRight((acc, val) => (acc.push(val), acc), []);
+//function reverseArray(arr) {
+// function central_pixels(image) {
+//     var reversedArray = [];
+//     for (var i = image.length - 1; i >= 0; i--) {
+//         reversedArray.push(image[i]);
+//     }
+//     return reversedArray;
+// }
+
+// function central_pixelsInPlace(arr) {
+//     var left = 0;
+//     var right = image.length - 1;
+//     while (left < right) {
+//         var temp = image[left];
+//         image[left] = image[right];
+//         image[right] = temp;
+//         left++;
+//         right--;
+//     }
+//     return image;
+// }
+// function central_pixels(image, color) {
+//     // First pass: Find the maximum depth
+//     let maxDepth = 0;
+//     const depths = Array(image.pixels.length).fill(0);
+
+//     for (let i = 0; i < image.pixels.length; i++) {
+//         if (image.pixels[i] === color) {
+//             let depth = 0;
+//             // Check left pixel
+//             if (i % image.width !== 0 && image.pixels[i - 1] === color) {
+//                 depth = Math.max(depth, depths[i - 1] + 1);
+//             }
+//             // Check top pixel
+//             if (i >= image.width && image.pixels[i - image.width] === color) {
+//                 depth = Math.max(depth, depths[i - image.width] + 1);
+//             }
+//             depths[i] = depth;
+//             maxDepth = Math.max(maxDepth, depth);
+//         }
+//     }
+
+//     // Second pass: Find pixels with maximum depth
+//     const positions = [];
+//     for (let i = 0; i < image.pixels.length; i++) {
+//         if (depths[i] === maxDepth && image.pixels[i] === color) {
+//             positions.push(i);
+//         }
+//     }
+
+//     return positions;
+// }
+
+// // Usage example
+// const image = new Image([0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0], 4, 3);
+// const color = 1;
+// const result = central_pixels(image, color);
+// console.log(result); // Output: [6, 7, 8]
+// function flip(d, a) {
+//     if (d === 'R') {
+//         return a.map((column, index) => a.slice().sort((a, b) => b - a)[index]);
+//     } else if (d === 'L') {
+//         return a.map((column, index) => a.slice().sort((a, b) => a - b)[index]);
+//     }
+// }
+
+// function flip(d, a) {
+//     if (d === 'R') {
+//         return a.reduceRight((acc, column) => {
+//             acc.push(column);
+//             return acc;
+//         }, []);
+//     } else if (d === 'L') {
+//         return a.reduceRight((acc, column) => {
+//             acc.unshift(column);
+//             return acc;
+//         }, []);
+//     }
+// }
+// function findAverage(array) {
+//     if (array.length === 0) {
+//         return 0;
+//     }
+
+//     let sum = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         sum += array[i];
+//     }
+
+//     return sum / array.length;
+// }
